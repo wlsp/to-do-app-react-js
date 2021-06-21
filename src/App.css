@@ -11,10 +11,6 @@
   }
 
   body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vmin;
     background: linear-gradient(
       90deg,
       rgb(97, 81, 204) 0%,
@@ -23,6 +19,7 @@
   }
 
   .to-do-wrapper {
+    margin: 5% auto;
     border: 1px solid #fff;
     border-radius: 15px;
     box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
