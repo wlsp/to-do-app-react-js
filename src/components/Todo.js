@@ -53,10 +53,10 @@ class Todo extends Component {
 
   handleDelete = id => {
     let temp = [...this.state.toDoData];
-    let toDoData = temp.filter(el => {
+    let toDoData = temp.filter(el => { 
       if (el.id !== id) {
         return el;
-      }
+      } return false;
     });
     this.setState({ toDoData });
   };
