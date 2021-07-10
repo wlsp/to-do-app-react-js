@@ -4,7 +4,7 @@ import TodoItem from "./TodoListItem";
 class Todo extends Component {
   state = {
     inputField: "",
-    toDoData: [],
+    toDoData: []
   };
   componentDidMount() {
     const data = localStorage.getItem("data");
